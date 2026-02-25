@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz aniversário meu amor 💙</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    img {
+      max-width: 90%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    button {
+      background: #38bdf8;
+      border: none;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0ea5e9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tenho uma surpresa pra você 🎶</h1>
+
+  <img src="djavan.png" alt="Imagem especial">
+
+  <p>Quando estiver pronta, aperte o play.</p>
+
+  <button onclick="document.getElementById('musica').play()">
+    ▶️ Tocar
+  </button>
+
+  <audio id="musica">
+    <source src="musica.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+</body>
+</html>
